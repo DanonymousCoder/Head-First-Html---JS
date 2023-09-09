@@ -68,3 +68,7 @@ function addSongs() {
     song3.innerHTML = "I Code the Line, by Johnny JavaScript";
 }
 window.onload = addSongs;
+
+function showTemp() {
+    let tempByHour= []
+}
