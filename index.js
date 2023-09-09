@@ -70,5 +70,5 @@ function addSongs() {
 window.onload = addSongs;
 
 function showTemp() {
-    let tempByHour= []
+    let tempByHour= [59.2, 60.1, 63, 65, 62]
 }
