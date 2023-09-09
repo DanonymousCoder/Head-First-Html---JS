@@ -67,3 +67,4 @@ function addSongs() {
     song2.innerHTML = "Great Objects on Fire, by Jerry JSON Lewis";
     song3.innerHTML = "I Code the Line, by Johnny JavaScript";
 }
+window.onload = addSongs;
