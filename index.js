@@ -58,3 +58,7 @@ function init() {
     planet.innerHTML = "Red Alert: hit by phaser fire!";
 }
 window.onload = init;
+
+function songs() {
+    let song1 = document.getElementById("song1")
+}
