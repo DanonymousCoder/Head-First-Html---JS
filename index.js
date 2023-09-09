@@ -59,7 +59,7 @@ function init() {
 }
 window.onload = init;
 
-function songs() {
+function addSongs() {
     let song1 = document.getElementById("song1");
     let song2 = document.getElementById("song2");
     let song3 = document.getElementById("song3")
