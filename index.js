@@ -60,5 +60,6 @@ function init() {
 window.onload = init;
 
 function songs() {
-    let song1 = document.getElementById("song1")
+    let song1 = document.getElementById("song1");
+    let song2 = document.getElementById("song2")
 }
