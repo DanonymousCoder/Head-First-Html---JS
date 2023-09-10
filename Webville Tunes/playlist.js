@@ -13,7 +13,7 @@ function handleButtonClick() {
    else {
     let li = document.createElement("li");
    li.innerHTML = songName;
-   let ul = document.getElementById("ul");
+   let ul = document.getElementById("playlist");
    ul.appendChild(li);
    }
 }
