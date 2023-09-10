@@ -71,7 +71,7 @@ window.onload = addSongs;
 
 function showTemp() {
     let tempByHour= [59.2, 60.1, 63, 65, 62];
-    for ( i = 0; i < 5; i++ ) {
+    for ( i = 0; i < tempByHour.length; i++ ) {
         let theTemp = tempByHour[i];
         let id = "temp" + i;
         let li = document.getElementById(id);
