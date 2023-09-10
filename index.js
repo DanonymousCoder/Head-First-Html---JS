@@ -77,3 +77,4 @@ function showTemp() {
         let li = document.getElementById(id);
     }
 }
+window.onload = showTemp;
