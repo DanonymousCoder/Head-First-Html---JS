@@ -70,5 +70,9 @@ function addSongs() {
 window.onload = addSongs;
 
 function showTemp() {
-    let tempByHour= [59.2, 60.1, 63, 65, 62]
+    let tempByHour= [59.2, 60.1, 63, 65, 62];
+    for ( i = 0; i < 5; i++ ) {
+        let theTemp = tempByHour[i];
+        let id = "theTemp" + i;
+    }
 }
