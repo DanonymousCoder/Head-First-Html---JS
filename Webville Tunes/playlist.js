@@ -11,10 +11,9 @@ function handleButtonClick() {
     alert("Please enter a song name")
    }
    else {
-    alert("Adding" + " " + songName);
-   }
-   let li = document.createElement("li");
+    let li = document.createElement("li");
    li.innerHTML = songName;
    let ul = document.getElementById("ul");
    ul.appendChild(li);
+   }
 }
