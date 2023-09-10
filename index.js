@@ -94,5 +94,7 @@ function showPhrase() {
     let rand1 = Math.floor(Math.random() * word1.length);
     let rand2 = Math.floor(Math.random() * word2.length);
     let rand3 = Math.floor(Math.random() * word3.length);
+
+    let phrase = word1(rand1)
 }
 window.onload = showPhrase;
