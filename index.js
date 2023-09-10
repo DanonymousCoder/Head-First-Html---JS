@@ -84,3 +84,8 @@ function showTemp() {
     }
 }
 window.onload = showTemp;
+
+
+function showPhrase() {
+    
+}
