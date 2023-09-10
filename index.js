@@ -87,5 +87,6 @@ window.onload = showTemp;
 
 
 function showPhrase() {
-    
+
 }
+window.onload = showPhrase;
