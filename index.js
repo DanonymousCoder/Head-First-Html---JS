@@ -86,6 +86,7 @@ function showTemp() {
 window.onload = showTemp;
 
 
+/* 
 function showPhrase() {
     let word1= ["24/7", "multi-Tier", "30,000 foot", "B-to-B", "win-win"];
     let word2 =["empowered", "value-added", "oriented", "focused", "aligned"];
@@ -100,3 +101,4 @@ function showPhrase() {
     phraseTag.innerHTML = phrase;
 }
 window.onload = showPhrase;
+*/
