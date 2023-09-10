@@ -79,7 +79,7 @@ function showTemp() {
             li.innerHTML = "The temperature at noon was " + theTemp;
         }
         else {
-            li.innerHTML = "The temperature at" + i + "was" + theTemp
+            li.innerHTML = "The temperature at " + i + " was " + theTemp
         }
     }
 }
