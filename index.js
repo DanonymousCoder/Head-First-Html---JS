@@ -75,7 +75,7 @@ function showTemp() {
         let theTemp = tempByHour[i];
         let id = "temp" + i;
         let li = document.getElementById(id);
-        if (i==1) {
+        if (i==0) {
             li.innerHTML = "The temperature at noon was " + theTemp;
         }
     }
