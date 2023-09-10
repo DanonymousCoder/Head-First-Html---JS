@@ -8,7 +8,7 @@ function handleButtonClick() {
     let textInput = document.getElementById("songTextInput");
     let songName = textInput.value;
    if (songName == "") {
-    alert("Input a song name")
+    alert("Please enter a song name")
    }
    else {
     alert("Adding" + " " + songName);
