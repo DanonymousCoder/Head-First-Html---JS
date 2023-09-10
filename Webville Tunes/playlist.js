@@ -13,4 +13,5 @@ function handleButtonClick() {
    else {
     alert("Adding" + " " + songName);
    }
+   let li = document.createElement("li")
 }
