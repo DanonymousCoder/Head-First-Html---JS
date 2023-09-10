@@ -92,5 +92,7 @@ function showPhrase() {
     let word3 = ["process", "solution", "tipping-point", "strategy", "vision"]
 
     let rand1 = Math.floor(Math.random() * word1.length);
+    let rand1 = Math.floor(Math.random() * word1.length);
+    let rand1 = Math.floor(Math.random() * word1.length);
 }
 window.onload = showPhrase;
