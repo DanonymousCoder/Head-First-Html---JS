@@ -16,5 +16,5 @@ function handleButtonClick() {
    let li = document.createElement("li");
    li.innerHTML = songName;
    let ul = document.getElementById("ul");
-   ul.appendChild("li");
+   ul.appendChild(li);
 }
