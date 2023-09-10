@@ -96,6 +96,7 @@ function showPhrase() {
     let rand3 = Math.floor(Math.random() * word3.length);
 
     let phrase = word1[rand1] + " " + word2[rand2] + " " + word3[rand3];
-    let phraseTag = document.getElementById("phrase")
+    let phraseTag = document.getElementById("phrase");
+    phraseTag.innerHTML = phrase;
 }
 window.onload = showPhrase;
