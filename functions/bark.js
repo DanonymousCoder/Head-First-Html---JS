@@ -66,3 +66,5 @@ for (prop in fido) {
         alert("This is " + fido[prop])
     }
 }
+
+let likes = fido.loves
