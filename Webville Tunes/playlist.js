@@ -16,5 +16,6 @@ function handleButtonClick() {
    li.innerHTML = songName;
    let ul = document.getElementById("playlist");
    ul.appendChild(li);
+   save(songName)
    }
 }
