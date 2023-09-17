@@ -76,9 +76,9 @@ alert(likeString);
 
 function barks(dog) {
     if (dog.weight > 25) {
-        alert("WOOF")
+        alert("WOOF");
     }
     else {
-        alert("YIP")
+        alert("YIP");
     }
 }
