@@ -9,4 +9,18 @@ function bark(dogName, dogWeight) {
     
 }
 let sound = bark("fido", 51);
-alert(sound)
+alert(sound);
+
+function dogAge(age) {
+    return age*7;
+}
+let totalDogAge = dogAge(4);
+alert(totalDogAge);
+
+function rectangleArea(width, height) {
+    let area = width * height;
+    return area ;
+}
+let recArea = rectangleArea(3, 4);
+alert(recArea);
+
