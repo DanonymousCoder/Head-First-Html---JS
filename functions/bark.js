@@ -72,4 +72,13 @@ let likeString = "Fido likes";
 for (i = 0; i< likes.length; i++) {
     likeString += " " + likes[i];
 }
-alert(likeString)
+alert(likeString);
+
+function barks(dog) {
+    if (dog.weight > 25) {
+        alert("WOOF")
+    }
+    else {
+        alert("YIP")
+    }
+}
