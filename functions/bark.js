@@ -106,5 +106,5 @@ let forbidden = {
     title : "Forbidden Planet",
     genre : "Classic sci-fi",
     rating : "5-stars",
-    showTimes : [ "3:00pm", "7:00pm", "11:00pm"]   
+    showTimes : [ "5:00pm", "9:00pm"]   
 }
