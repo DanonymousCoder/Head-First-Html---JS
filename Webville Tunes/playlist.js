@@ -1,5 +1,5 @@
 window.onload = init;
-window.onload = loadPlaylist();
+loadPlaylist();
 function init() {
     let button = document.getElementById("addButton");
     button.onclick = handleButtonClick;
