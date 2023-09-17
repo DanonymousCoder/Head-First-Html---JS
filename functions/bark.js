@@ -27,7 +27,10 @@ alert(recArea);
 function addUp(numArray) {
     total = 0;
     for (let i =0; i < numArray.length; i++) {
-        total += numArray[i]
+        total += numArray[i];
     }
     return total;
 }
+let totalAddUp = addUp([1, 5 , 3 , 9]);
+alert(totalAddUp);
+
