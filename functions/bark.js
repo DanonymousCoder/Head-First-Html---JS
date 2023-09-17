@@ -4,6 +4,7 @@ function bark(dogName, dogWeight) {
     let dogName = name.value;
     let weight = document.getElementById("dogWeight");
     let dogWeight = weight.value;
+    let p = document.createElement("p")
     if (dogWeight < 50) {
         let p = dogName + "Yip";
     }
