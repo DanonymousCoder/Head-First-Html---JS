@@ -11,7 +11,6 @@ function loadPlaylist() {
             let li = document.createElement("li");
             li.innerHTML = playlistArray[i];
             ul.appendChild(li);
-            save(songName);
         }
     }
 }
