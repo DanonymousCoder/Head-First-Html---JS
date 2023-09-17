@@ -59,3 +59,4 @@ let fido = {
 fido.loves.push(" chewing bones");
 fido.weight = 50;
 alert(fido.weight);
+let prop;
