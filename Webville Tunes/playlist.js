@@ -1,9 +1,8 @@
 window.onload = init;
-
+window.onload = loadPlaylist();
 function init() {
     let button = document.getElementById("addButton");
     button.onclick = handleButtonClick;
-    window.onload = loadPlaylist();
 }
 function handleButtonClick() {
     let textInput = document.getElementById("songTextInput");
