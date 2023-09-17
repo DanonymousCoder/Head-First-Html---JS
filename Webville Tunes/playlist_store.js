@@ -25,5 +25,5 @@ function getStoreArray(key) {
     else {
         playlistArray = JSON.parse(playlistArray);
     }
-    return playlistArray
+    return playlistArray;
 }
