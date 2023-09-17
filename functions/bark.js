@@ -102,3 +102,9 @@ let outerSpace = {
     rating : "2-stars",
     showTimes : [ "3:00pm", "7:00pm", "11:00pm"]
 }
+let forbidden = {
+    title : "Forbidden Planet",
+    genre : "Classic sci-fi",
+    rating : "2-stars",
+    showTimes : [ "3:00pm", "7:00pm", "11:00pm"]   
+}
