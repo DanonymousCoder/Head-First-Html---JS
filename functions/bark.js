@@ -39,4 +39,10 @@ function getAvatar(points) {
     if (points < 100) {
         avatar = "Mouse";
     }
+    else if(points < 100 && points < 1000) {
+        avatar = "cat";
+    }
+    else {
+        avatar="ape"
+    }
 }
