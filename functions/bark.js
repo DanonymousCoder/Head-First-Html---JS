@@ -24,4 +24,9 @@ function rectangleArea(width, height) {
 let recArea = rectangleArea(3, 4);
 alert(recArea);
 
-function addUp(numArray)
+function addUp(numArray) {
+    total = 0;
+    for (let i =0; i < numArray.length; i++) {
+        total += numArray[i]
+    }
+}
