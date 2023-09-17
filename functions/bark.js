@@ -54,5 +54,5 @@ let fido = {
     name: "Fido",
     weight: 40,
     breed: "mixed",
-    loves: [walking,]
+    loves: ["walks", "fetching balls"]
 }
