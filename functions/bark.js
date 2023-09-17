@@ -10,4 +10,6 @@ function bark(dogName, dogWeight) {
     else {
         return dogName + "Woof";
     }
+    let p = document.createElement("p")
+    
 }
