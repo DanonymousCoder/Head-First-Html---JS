@@ -62,4 +62,7 @@ alert(fido.weight);
 let prop;
 for (prop in fido) {
     alert("Fido has a " + prop + " property");
+    if (prop == "name") {
+        alert("This is " + fido[prop])
+    }
 }
