@@ -61,5 +61,5 @@ fido.weight = 50;
 alert(fido.weight);
 let pros;
 for (pros in fido) {
-    alert("Fido has a " + prop + " property");
+    alert("Fido has a " + pros + " property");
 }
