@@ -98,5 +98,7 @@ alert(fido.name + " now weighs " + fido.weight + " " + "pounds");
 
 let outerSpace = {
     title : "Plan 9 from Outer Space",
-    genre : "Cult classic"
+    genre : "Cult classic",
+    rating : "2-stars",
+
 }
