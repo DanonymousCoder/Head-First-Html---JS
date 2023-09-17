@@ -67,4 +67,8 @@ for (prop in fido) {
     }
 }
 
-let likes = fido.loves
+let likes = fido.loves;
+let likeString = "Fido likes";
+for (i = 0; i< likeString; i++) {
+    likeString += " " + likes;
+}
