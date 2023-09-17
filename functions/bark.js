@@ -100,5 +100,5 @@ let outerSpace = {
     title : "Plan 9 from Outer Space",
     genre : "Cult classic",
     rating : "2-stars",
-
+    showTimes : [ "3:00pm", "7:00pm", "11:00pm"]
 }
