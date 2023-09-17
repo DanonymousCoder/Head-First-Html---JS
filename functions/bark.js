@@ -1,6 +1,6 @@
 window.onload = init;
 function init() {
-    let button = document.getElementById
+    let button = document.getElementById("sound")
     button.onclick = bark;
 }
 function bark(dogName, dogWeight) {
