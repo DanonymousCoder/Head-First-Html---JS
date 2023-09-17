@@ -56,3 +56,4 @@ let fido = {
     breed: "mixed",
     loves: ["walks", "fetching balls"]
 }
+fido.loves.push = ["chewing bones"]
