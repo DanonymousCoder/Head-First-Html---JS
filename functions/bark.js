@@ -35,5 +35,8 @@ let totalAddUp = addUp([1, 5 , 3 , 9]);
 alert(totalAddUp);
 
 function getAvatar(points) {
-    
+    let avatar;
+    if (points < 100) {
+        avatar = "Mouse";
+    }
 }
