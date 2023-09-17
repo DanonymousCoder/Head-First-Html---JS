@@ -49,3 +49,10 @@ function getAvatar(points) {
 }
 let myAvatar = getAvatar(335);
 alert(myAvatar);
+
+let fido = {
+    name: "Fido",
+    weight: 40,
+    breed: "mixed",
+    loves: [walking,]
+}
