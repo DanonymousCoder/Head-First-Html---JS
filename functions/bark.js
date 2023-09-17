@@ -57,4 +57,5 @@ let fido = {
     loves: ["walks", " fetching balls"]
 };
 fido.loves.push(" chewing bones");
-alert(fido.loves)
+fido.weight = 50;
+alert(fido)
