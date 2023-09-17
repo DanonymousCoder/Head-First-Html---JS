@@ -99,12 +99,12 @@ alert(fido.name + " now weighs " + fido.weight + " " + "pounds");
 let outerSpace = {
     title : "Plan 9 from Outer Space",
     genre : "Cult classic",
-    rating : "2-stars",
+    rating : 2,
     showTimes : [ "3:00pm", "7:00pm", "11:00pm"]
 }
 let forbidden = {
     title : "Forbidden Planet",
     genre : "Classic sci-fi",
-    rating : "5-stars",
+    rating : 5,
     showTimes : [ "5:00pm", "9:00pm"]   
 }
