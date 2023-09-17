@@ -69,7 +69,7 @@ for (prop in fido) {
 
 let likes = fido.loves;
 let likeString = "Fido likes";
-for (i = 0; i< likeString; i++) {
+for (i = 0; i< likes; i++) {
     likeString += " " + likes[i];
 }
 alert(likeString)
