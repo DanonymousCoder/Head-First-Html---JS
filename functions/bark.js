@@ -94,3 +94,9 @@ function loseWeight(dog) {
     dog.weight = dog.weight - 10;
 }
 alert(fido.name + " now weighs " + fido.weight + " " + "pounds");
+
+
+let outerSpace = {
+    title : "Plan 9 from Outer Space",
+    genre : "Cult classic"
+}
