@@ -3,6 +3,8 @@ function save(item) {
     playlistArray.push(item);
     localStorage.setItem("playlist", JSON.stringify(playlistArray));
 }
-function loadPlaylist {
+function loadPlaylist() {
+    let playlistArray = getSavedSongs();
+    let ul = document.getElementById("playlist");
     
 }
