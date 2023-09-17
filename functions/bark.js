@@ -55,5 +55,6 @@ let fido = {
     weight: 40,
     breed: "mixed",
     loves: ["walks", "fetching balls"]
-}
-fido.loves.push = ["chewing bones"]
+};
+fido.loves.push = ["chewing bones"];
+alert(fido.loves)
