@@ -8,10 +8,10 @@ function bark(dogName, dogWeight) {
     let ul = document.getElementById("message");
     
     if (dogWeight < 50) {
-        let p.innerHTML = dogName + "Yip";
+        let p.innerHTML = dogName + "Yips";
     }
     else {
-        let p.innerHTML = dogName + "Woof";
+        let p.innerHTML = dogName + "Woofs";
     }
     ul.appendChild(p)
 }
