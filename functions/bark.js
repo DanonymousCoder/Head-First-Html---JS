@@ -82,4 +82,4 @@ function barks(dog) {
         alert("YIP");
     }
 }
-barks(fido)
+barks(fido);
