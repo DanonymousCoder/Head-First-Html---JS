@@ -6,5 +6,11 @@ function save(item) {
 function loadPlaylist() {
     let playlistArray = getSavedSongs();
     let ul = document.getElementById("playlist");
-    
+    if (playlistArray != null) {
+        for ( let i = 0; i < playlistArray; i++) {
+            let li = document.createElement("li");
+            li.innerHTML = playlistArray[i];
+            ul.appendChild(li);
+        }
+    }
 }
