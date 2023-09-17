@@ -29,4 +29,5 @@ function addUp(numArray) {
     for (let i =0; i < numArray.length; i++) {
         total += numArray[i]
     }
+    return total;
 }
