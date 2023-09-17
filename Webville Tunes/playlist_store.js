@@ -2,7 +2,7 @@
     function init() {
         var button = document.getElementById("addButton");
         button.onclick = handleButtonClick;
-        loadPlaylist();
+        window.onload=loadPlaylist();
        } 
        function handleButtonClick() {
         var textInput = document.getElementById("songTextInput");
