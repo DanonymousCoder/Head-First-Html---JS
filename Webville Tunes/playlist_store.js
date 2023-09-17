@@ -14,3 +14,7 @@ function loadPlaylist() {
         }
     }
 }
+function getSavedSongs() {
+    return getStoreArray("playlist");
+    
+}
