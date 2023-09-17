@@ -47,4 +47,5 @@ function getAvatar(points) {
     }
     return avatar;
 }
-let myAvatar = getAvatar(335)
+let myAvatar = getAvatar(335);
+alert(myAvatar)
