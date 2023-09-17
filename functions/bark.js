@@ -89,6 +89,7 @@ delete fido.age;
 alert(fido.age);
 
 fido.weight = 48;
+loseWeight(fido)
 function loseWeight(dog) {
     dog.weight = dog.weight - 10;
 }
