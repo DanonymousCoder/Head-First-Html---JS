@@ -48,4 +48,4 @@ function getAvatar(points) {
     return avatar;
 }
 let myAvatar = getAvatar(335);
-alert(myAvatar)
+alert(myAvatar);
