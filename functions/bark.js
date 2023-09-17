@@ -1,4 +1,7 @@
 window.onload = init;
+function init() {
+    button.onclick = bark;
+}
 function bark(dogName, dogWeight) {
     let name = document.getElementById("dogName");
     let dogName = name.value;
