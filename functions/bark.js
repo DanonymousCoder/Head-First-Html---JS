@@ -45,4 +45,5 @@ function getAvatar(points) {
     else {
         avatar="ape"
     }
+    return avatar;
 }
