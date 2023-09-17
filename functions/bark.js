@@ -83,3 +83,5 @@ function barks(dog) {
     }
 }
 barks(fido);
+fido.age = 20;
+alert(fido.age)
