@@ -5,10 +5,10 @@ function init() {
 }
 function bark(dogName, dogWeight) {
     if (dogWeight < 50) {
-        p.innerHTML = dogName + "Yips";
+        return dogName + "Yips";
     }
     else {
-         p.innerHTML = dogName + "Woofs";
+         return dogName + "Woofs";
     }
     
 }
