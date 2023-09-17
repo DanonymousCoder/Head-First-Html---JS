@@ -59,7 +59,7 @@ let fido = {
 fido.loves.push(" chewing bones");
 fido.weight = 50;
 alert(fido.weight);
-let pros;
-for (pros in fido) {
+let props;
+for (prop in fido) {
     alert("Fido has a " + pros + " property");
 }
