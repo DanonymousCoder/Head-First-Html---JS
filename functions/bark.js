@@ -106,8 +106,8 @@ let movie2 = {
     title : "Forbidden Planet",
     genre : "Classic sci-fi",
     rating : 5,
-    showTimes : [ "5:00pm", "9:00pm"]   
-    getNextShowing: function(movie) {
+    showTimes : [ "5:00pm", "9:00pm"],
+    getNextShowing : function(movie) {
         let now = new Date().getTime();
     
         for (let i = 0; i< movie.showTimes.length; i++) {
