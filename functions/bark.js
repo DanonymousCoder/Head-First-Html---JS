@@ -102,7 +102,7 @@ let movie1 = {
     rating : 2,
     showTimes : [ "3:00pm", "7:00pm", "11:00pm"]
 }
-let forbidden = {
+let movie2 = {
     title : "Forbidden Planet",
     genre : "Classic sci-fi",
     rating : 5,
