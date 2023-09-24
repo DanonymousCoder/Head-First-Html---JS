@@ -108,3 +108,11 @@ let movie2 = {
     rating : 5,
     showTimes : [ "5:00pm", "9:00pm"]   
 }
+
+function getNextShowing(movie) {
+    let now = new Date().getTime();
+
+    for (let i = 0; i< movie.showTimes.length; i++) {
+        let showTime = getTimeFromString(movie.showTimes[i])
+    }
+}
