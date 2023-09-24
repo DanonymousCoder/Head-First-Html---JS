@@ -111,7 +111,7 @@ let movie2 = {
         let now = new Date().getTime();
     
         for (let i = 0; i< this.showTimes.length; i++) {
-            let showTime = getTimeFromString(movie.showTimes[i]);
+            let showTime = getTimeFromString(this.showTimes[i]);
             if ((showTime - now) > 0) {
                 return "Next showing of " + movie.title + " is " + movie.showTimes[i];
             }
