@@ -107,19 +107,20 @@ let movie2 = {
     genre : "Classic sci-fi",
     rating : 5,
     showTimes : [ "5:00pm", "9:00pm"]   
-}
-
-function getNextShowing(movie) {
-    let now = new Date().getTime();
-
-    for (let i = 0; i< movie.showTimes.length; i++) {
-        let showTime = getTimeFromString(movie.showTimes[i]);
-        if ((showTime - now) > 0) {
-            return "Next showing of " + movie.title + " is " + movie.showTimes[i];
+    getNextShowing: function(movie) {
+        let now = new Date().getTime();
+    
+        for (let i = 0; i< movie.showTimes.length; i++) {
+            let showTime = getTimeFromString(movie.showTimes[i]);
+            if ((showTime - now) > 0) {
+                return "Next showing of " + movie.title + " is " + movie.showTimes[i];
+            }
         }
+        return null;
     }
-    return null;
 }
+
+
 function getTimeFromString(timeString) {
     let theTime = new Date();
     let time = timeString.match(/(\d+)(?::(\d\d))?\s*(p?)/);
