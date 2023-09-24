@@ -121,4 +121,4 @@ function getNextShowing(movie) {
     return null
 }
 let time = getNextShowing(movie1);
-alert(result);
+alert(time);
