@@ -115,7 +115,7 @@ function getNextShowing(movie) {
     for (let i = 0; i< movie.showTimes.length; i++) {
         let showTime = getTimeFromString(movie.showTimes[i]);
         if ((showTime - now) > 0) {
-            return "Next showing of " + movie.title + " is" movie.showTimes[i]
+            return "Next showing of " + movie.title + " is " + movie.showTimes[i]
         }
     }
     return null
