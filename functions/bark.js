@@ -120,3 +120,5 @@ function getNextShowing(movie) {
     }
     return null
 }
+let result = getNextShowing(movie1);
+alert(result)
