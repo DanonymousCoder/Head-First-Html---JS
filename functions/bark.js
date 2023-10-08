@@ -154,4 +154,6 @@ function Dog(name, breed, weight) {
 
 let fido = new Dog("Fido", "Mixed", 38);
 let tiny = new Dog("Tiny", "Chawalla", 8);
-let clifford = new Dog("Clifford", "Bloodhound", 65)
+let clifford = new Dog("Clifford", "Bloodhound", 65);
+
+fido.bark();
