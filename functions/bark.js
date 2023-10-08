@@ -142,4 +142,12 @@ function Dog(name, breed, weight) {
     this.name = name;
     this.breed = breed;
     this.weight = weight;
+    this.bark = function() {
+            if (dog.weight > 25) {
+                alert("WOOF");
+            }
+            else {
+                alert("YIP");
+            }
+    }
 }
