@@ -96,6 +96,8 @@ function loseWeight(dog) {
 alert(fido.name + " now weighs " + fido.weight + " " + "pounds");
 
 
+let fido = new Dog("Tiny", "Mixed", 38);
+
 let movie1 = {
     title : "Plan 9 from Outer Space",
     genre : "Cult classic",
