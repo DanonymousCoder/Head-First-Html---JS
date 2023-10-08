@@ -156,6 +156,8 @@ let fido = new Dog("Fido", "Mixed", 38);
 let tiny = new Dog("Tiny", "Chawalla", 8);
 let clifford = new Dog("Clifford", "Bloodhound", 65);
 
-fido.bark();
-tiny.bark();
-clifford.bark();
+let tiny2 = tiny.bark();
+let clifford2= clifford.bark();
+
+alert(clifford2);
+alert(tiny2);
