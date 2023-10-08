@@ -147,7 +147,7 @@ function Dog(name, breed, weight) {
                 alert(this.name + " " + "says WOOF!");
             }
             else {
-                alert("YIP");
+                alert(this.name + " " + "YIP");
             }
     }
 }
