@@ -129,9 +129,9 @@ function getTimeFromString(timeString) {
     theTime.setMinutes( parseInt(time[2]) || 0 );
     return theTime.getTime();
    }
-   var nextShowing = getNextShowing(movie1);
+   var nextShowing = this.getNextShowing(movie1);
    alert(nextShowing);
-   nextShowing = getNextShowing(movie2);
+   nextShowing = this.getNextShowing(movie2);
    alert(nextShowing);
 let time = getNextShowing(movie1);
 alert(time);
