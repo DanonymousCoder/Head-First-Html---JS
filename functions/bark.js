@@ -149,5 +149,5 @@ function Dog(name, breed, weight) {
             else {
                 alert(this.name + " " + "YIP");
             }
-    }
+    };
 }
