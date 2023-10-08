@@ -151,3 +151,5 @@ function Dog(name, breed, weight) {
             }
     };
 }
+
+let fido = new Dog("Fido", "Mixed", 38);
