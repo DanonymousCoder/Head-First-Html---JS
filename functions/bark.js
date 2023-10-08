@@ -136,3 +136,9 @@ function getTimeFromString(timeString) {
    alert(nextShowing);
 let time = getNextShowing(movie1);
 alert(time);
+
+
+function Dog(name, breed, weight) {
+    this.name = name;
+    this.breed = breed
+}
