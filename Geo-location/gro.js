@@ -12,6 +12,6 @@ function displayLocation(position) {
     let latitude = position.coords.latitude;
     let longitude = position.coords.longitude;
 
-    let div = document.getElementById("location");
-    div.innerHTML = "You're at Latitude: " + latitude + " , Longitude: " + longitude;
+    let p = document.getElementById("location");
+    p.innerHTML = "You're at Latitude: " + latitude + " , Longitude: " + longitude;
 }
