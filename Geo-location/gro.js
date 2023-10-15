@@ -8,3 +8,10 @@ function getMyLocation() {
         alert("Oops! no geolocation support");
     }
 }
+function displayLocation(position) {
+    let latitude = position.coords.latitude;
+    let longitude = position.coords.longitude;
+
+    let div = document.getElementById("Location");
+    div.innerHTML = "You're at Latitude: " + latitude + " , Longitude: " + longitude;
+}
