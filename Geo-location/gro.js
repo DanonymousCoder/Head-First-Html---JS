@@ -5,6 +5,6 @@ function getMyLocation() {
         navigator.geolocation.getCurrentPosition(displayLocation);
     }
     else {
-        alert("Oops! no geolocation support")
+        alert("Oops! no geolocation support");
     }
 }
